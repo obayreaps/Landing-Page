@@ -1,0 +1,27 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 50px;
+}
+
+.header-section {
+    background-color: #1f2937;
+    padding-bottom: 40px;
+}
+
+.header-links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.links{
+    color: white;
+    font-size: 12px;
+}
